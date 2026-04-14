@@ -29,7 +29,7 @@ export default function CohortsPage() {
       {/* Hero */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
             Cohorts that reflect real lives, not just rows in a spreadsheet.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
@@ -56,7 +56,7 @@ export default function CohortsPage() {
                 key={p.title}
                 className="bg-white rounded-2xl p-6 shadow-sm border border-[rgba(45,27,78,0.08)]"
               >
-                <h3 className="text-lg font-bold text-purple-deep mb-2">
+                <h3 className="font-display text-lg font-bold text-purple-deep mb-2">
                   {p.title}
                 </h3>
                 <p className="text-purple-mid leading-relaxed">{p.body}</p>
@@ -90,7 +90,7 @@ export default function CohortsPage() {
       {/* CTA */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
+          <p className="font-display text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
             Show us the cohorts you care about. We&rsquo;ll show you how LoMio
             sees them.
           </p>

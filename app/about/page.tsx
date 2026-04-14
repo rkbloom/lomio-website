@@ -37,7 +37,7 @@ export default function AboutPage() {
       {/* Hero */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight">
             The decision layer built for health, not hype.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mx-auto mt-6">
@@ -117,7 +117,7 @@ export default function AboutPage() {
       {/* CTA */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
+          <p className="font-display text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
             If you&rsquo;re carrying the weight of the decision, we&rsquo;re
             building for you.
           </p>

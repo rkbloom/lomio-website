@@ -14,7 +14,7 @@ export default function CommunityPage() {
       {/* Hero */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
             Because your community deserves more than being &ldquo;studied.&rdquo;
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
@@ -99,7 +99,7 @@ export default function CommunityPage() {
       {/* CTA */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
+          <p className="font-display text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
             Let&rsquo;s design how your community shows up in this system.
           </p>
           <div className="mt-8">

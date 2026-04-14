@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur-sm border-b border-[rgba(45,27,78,0.08)]">
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="text-purple-deep font-bold text-xl">
+        <Link href="/" className="font-display text-purple-deep font-bold text-xl">
           LoMio
         </Link>
 

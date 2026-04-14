@@ -21,7 +21,7 @@ export default function StepCard({
       <div className="w-8 h-8 rounded-full bg-purple-ghost text-purple-deep text-sm font-bold flex items-center justify-center mb-4">
         {step}
       </div>
-      <h3 className="text-lg font-bold text-purple-deep mb-2">{title}</h3>
+      <h3 className="font-display text-lg font-bold text-purple-deep mb-2">{title}</h3>
       <p className="text-base text-purple-mid leading-relaxed">{body}</p>
     </motion.div>
   );

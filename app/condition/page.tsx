@@ -14,7 +14,7 @@ export default function ConditionPage() {
       {/* Hero */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
             Your condition has a story. It&rsquo;s more than a code in a chart.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
@@ -95,7 +95,7 @@ export default function ConditionPage() {
       {/* CTA */}
       <AnimatedSection className="bg-purple-ghost rounded-2xl py-12 mx-6 lg:mx-auto max-w-6xl mb-20">
         <div className="px-6 text-center">
-          <p className="text-xl font-bold text-purple-deep max-w-2xl mx-auto">
+          <p className="font-display text-xl font-bold text-purple-deep max-w-2xl mx-auto">
             Ask your providers, your health plan, and your wellness programs how
             they&rsquo;re using LoMio &mdash; and whether they can show you their
             work.

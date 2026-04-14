@@ -12,7 +12,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight">
             Community-owned data. Real-world health decisions.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">

@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="bg-purple-dark text-white">
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <Link href="/" className="text-white font-bold text-xl">
+          <Link href="/" className="font-display text-white font-bold text-xl">
             LoMio
           </Link>
           <div className="flex flex-wrap gap-x-6 gap-y-2">

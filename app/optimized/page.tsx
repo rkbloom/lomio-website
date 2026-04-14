@@ -14,7 +14,7 @@ export default function OptimizedPage() {
       {/* Hero */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
             If you live in the data, it should live up to you.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
@@ -72,7 +72,7 @@ export default function OptimizedPage() {
       {/* CTA */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
+          <p className="font-display text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
             Want this level of intelligence in your gym, team, or wellness
             ecosystem?
           </p>

@@ -12,7 +12,7 @@ export default function SocialProofStrip() {
   return (
     <AnimatedSection className="bg-purple-ghost py-10">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-lg font-semibold text-purple-deep mb-6">
+        <h2 className="font-display text-lg font-semibold text-purple-deep mb-6">
           Built for organizations who need AI they can explain.
         </h2>
         <div className="flex flex-wrap justify-center gap-3">

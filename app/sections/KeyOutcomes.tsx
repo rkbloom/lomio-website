@@ -22,7 +22,7 @@ export default function KeyOutcomes() {
         <SectionLabel>What you get &mdash; and what you stop worrying about.</SectionLabel>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
           <div className="bg-purple-deep text-white rounded-2xl p-8">
-            <h3 className="text-xl font-bold mb-4">You get</h3>
+            <h3 className="font-display text-xl font-bold mb-4">You get</h3>
             <ul className="space-y-3">
               {gets.map((g, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -33,7 +33,7 @@ export default function KeyOutcomes() {
             </ul>
           </div>
           <div className="bg-white border border-[rgba(45,27,78,0.08)] rounded-2xl p-8">
-            <h3 className="text-xl font-bold text-purple-deep mb-4">You stop&hellip;</h3>
+            <h3 className="font-display text-xl font-bold text-purple-deep mb-4">You stop&hellip;</h3>
             <ul className="space-y-3">
               {stops.map((s, i) => (
                 <li key={i} className="flex items-start gap-3">

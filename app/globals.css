@@ -7,7 +7,8 @@
   --color-purple-mid: #4A3272;
   --color-purple-soft: #7B6BA0;
   --color-purple-ghost: #EDE8F5;
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-dm-sans);
+  --font-display: "Clash Display", system-ui, sans-serif;
 }
 
 body {

@@ -100,7 +100,7 @@ export default function FaqPage() {
       {/* Hero */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <h1 className="text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
+          <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
             Ask the hard questions. We built for them.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
@@ -115,7 +115,7 @@ export default function FaqPage() {
         <div className="max-w-6xl mx-auto px-6">
           {groups.map((g) => (
             <div key={g.label} className="mb-12">
-              <h2 className="text-lg font-bold text-purple-deep border-b border-[rgba(45,27,78,0.12)] pb-2 mb-4">
+              <h2 className="font-display text-lg font-bold text-purple-deep border-b border-[rgba(45,27,78,0.12)] pb-2 mb-4">
                 {g.label}
               </h2>
               {g.items.map((item, i) => (
@@ -133,7 +133,7 @@ export default function FaqPage() {
       {/* CTA */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
+          <p className="font-display text-2xl font-bold text-purple-deep max-w-2xl mx-auto">
             If your question isn&rsquo;t here, it probably belongs in a demo
             anyway.
           </p>
