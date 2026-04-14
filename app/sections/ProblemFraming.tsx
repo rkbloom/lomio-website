@@ -17,7 +17,7 @@ export default function ProblemFraming() {
           <div className="space-y-4">
             {problems.map((p, i) => (
               <div key={i} className="flex items-start gap-3">
-                <span className="text-red-400 font-bold mt-0.5">&times;</span>
+                <span className="text-red-400 font-bold mt-0.5">{"\u00D7"}</span>
                 <p className="font-bold text-purple-deep">{p}</p>
               </div>
             ))}

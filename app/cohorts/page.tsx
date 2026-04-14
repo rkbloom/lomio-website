@@ -78,7 +78,7 @@ export default function CohortsPage() {
                 "Every cohort definition can be explained: inputs, decisions, outcomes.",
               ].map((b, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <span className="text-purple-deep mt-0.5">&check;</span>
+                  <span className="text-purple-deep mt-0.5">{"\u2713"}</span>
                   <p className="text-purple-mid leading-relaxed">{b}</p>
                 </div>
               ))}

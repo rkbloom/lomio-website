@@ -67,7 +67,7 @@ export default function CommunityPage() {
               "Decision traces that show who decided what, and why.",
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
-                <span className="text-green-500 mt-0.5">&check;</span>
+                <span className="text-green-500 mt-0.5">{"\u2713"}</span>
                 <p className="text-purple-mid leading-relaxed">{b}</p>
               </div>
             ))}
@@ -87,7 +87,7 @@ export default function CommunityPage() {
                 "We will not treat your community as a \u2018segment\u2019 to be mined.",
               ].map((b, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <span className="text-red-300 mt-0.5">&times;</span>
+                  <span className="text-red-300 mt-0.5">{"\u00D7"}</span>
                   <span className="text-white/90">{b}</span>
                 </div>
               ))}

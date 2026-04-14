@@ -26,7 +26,7 @@ export default function KeyOutcomes() {
             <ul className="space-y-3">
               {gets.map((g, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="text-green-300 mt-0.5">&check;</span>
+                  <span className="text-green-300 mt-0.5">{"\u2713"}</span>
                   <span className="text-white/90">{g}</span>
                 </li>
               ))}
@@ -37,7 +37,7 @@ export default function KeyOutcomes() {
             <ul className="space-y-3">
               {stops.map((s, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <span className="text-red-400 mt-0.5">&times;</span>
+                  <span className="text-red-400 mt-0.5">{"\u00D7"}</span>
                   <span className="text-purple-mid">{s}</span>
                 </li>
               ))}
