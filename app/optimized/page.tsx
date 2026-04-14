@@ -61,7 +61,7 @@ export default function OptimizedPage() {
               "The satisfaction of knowing your data upgrades the system \u2014 without leaving your digital doppelg\u00e4nger vault.",
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
-                <span className="text-purple-deep mt-0.5">&starf;</span>
+                <span className="text-purple-deep mt-0.5">{"\u2605"}</span>
                 <p className="text-purple-mid leading-relaxed">{b}</p>
               </div>
             ))}
