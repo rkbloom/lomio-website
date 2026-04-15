@@ -5,17 +5,21 @@ export default function CommunityEthics() {
   return (
     <AnimatedSection className="bg-purple-deep text-white py-24">
       <div className="max-w-6xl mx-auto px-6">
-        <SectionLabel light>Built with the people inside the data.</SectionLabel>
+        <SectionLabel light>Your data doesn&rsquo;t live in their system. It lives with you.</SectionLabel>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mt-8">
           <div className="rounded-2xl bg-purple-mid/30 aspect-[4/3] w-full" />
-          <p className="text-white/90 text-xl leading-relaxed">
-            LoMio was architected so the people generating the signal never lose
-            ownership or dignity. Digital doppelg&auml;nger vaults keep control
-            with individuals, devices, and communities. Brands and institutions
-            access intelligence with clear consent, clear purpose, and clear
-            accountability. That&rsquo;s not a feature. It&rsquo;s the
-            foundation.
-          </p>
+          <div className="text-white/90 text-xl leading-relaxed space-y-4">
+            <p>
+              Your Digital Doppelg&auml;nger Vault is your personal data space.
+              Companies don&rsquo;t own your data. They ask to use it.
+            </p>
+            <p>You decide:</p>
+            <ul className="space-y-2 pl-1">
+              <li className="flex items-start gap-3"><span className="text-white/60 mt-0.5">&rarr;</span><span>who gets access</span></li>
+              <li className="flex items-start gap-3"><span className="text-white/60 mt-0.5">&rarr;</span><span>why they get it</span></li>
+              <li className="flex items-start gap-3"><span className="text-white/60 mt-0.5">&rarr;</span><span>and how long it lasts</span></li>
+            </ul>
+          </div>
         </div>
       </div>
     </AnimatedSection>

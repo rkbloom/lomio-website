@@ -6,16 +6,16 @@ import StepCard from "@/components/StepCard";
 
 const steps = [
   {
-    title: "Capture at the edge",
-    body: "Signals are captured where life actually happens \u2014 on devices, in apps, inside real interactions \u2014 before context is stripped away.",
+    title: "Capture real life",
+    body: "Your data comes from real moments\u2014apps, devices, and daily experiences.",
   },
   {
-    title: "Propose with full context",
-    body: "Agents propose actions with the complete story, not a summary. Humans approve, override, or refine when nuance matters.",
+    title: "Propose decisions",
+    body: "The system suggests actions, but people can approve or change them.",
   },
   {
-    title: "Learn from every decision",
-    body: "Each human decision becomes a high-value precedent in a richer graph that explains what happened, why, and under what conditions.",
+    title: "Learn and improve",
+    body: "Every decision makes the system smarter\u2014and more accurate.",
   },
 ];
 
@@ -28,7 +28,7 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="bg-cream py-20 lg:py-28">
       <div className="max-w-6xl mx-auto px-6">
-        <SectionLabel>How decisions become explainable.</SectionLabel>
+        <SectionLabel>How it works.</SectionLabel>
         <motion.div
           variants={container}
           initial="hidden"
@@ -41,8 +41,7 @@ export default function HowItWorks() {
           ))}
         </motion.div>
         <p className="text-center text-purple-mid mt-10 max-w-2xl mx-auto">
-          You get decision intelligence that&rsquo;s privacy-first, consent-based,
-          and ready for regulators.
+          Better decisions. More trust. Less risk.
         </p>
       </div>
     </section>

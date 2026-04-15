@@ -10,9 +10,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "LoMio | Community-Owned Decision Intelligence",
+  title: "LoMio | Your Data. Your Say. Every Decision Explained.",
   description:
-    "The first end-to-end agentic AI platform that turns consented health and behavioral signals into explainable decision intelligence.",
+    "LoMio gives people control of their data\u2014and gives organizations decisions they can stand behind.",
 };
 
 export default function RootLayout({

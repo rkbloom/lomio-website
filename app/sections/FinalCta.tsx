@@ -10,9 +10,7 @@ export default function FinalCta() {
       <div className="max-w-6xl mx-auto px-6 text-center" id="demo">
         <SectionLabel light>Ready to see it in your world?</SectionLabel>
         <h2 className="font-display text-3xl lg:text-4xl font-bold text-white mt-4 max-w-3xl mx-auto">
-          If you need AI you can stand behind &mdash; in audits, in boardrooms,
-          and in the lives of the people you serve &mdash; LoMio is built for
-          you.
+          Ready to see how it works in your world?
         </h2>
         <div className="mt-8">
           <motion.a

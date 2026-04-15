@@ -3,9 +3,9 @@ import AnimatedSection from "@/components/AnimatedSection";
 import SectionLabel from "@/components/SectionLabel";
 
 export const metadata: Metadata = {
-  title: "Condition-Focused Seeker | LoMio",
+  title: "Individual | LoMio",
   description:
-    "Your condition has a story. LoMio helps organizations see your context, not just your lab values \u2014 while you keep control.",
+    "You shouldn\u2019t have to repeat your story. LoMio helps systems understand you\u2014your life, your context, your reality\u2014while you stay in control.",
 };
 
 export default function ConditionPage() {
@@ -15,62 +15,48 @@ export default function ConditionPage() {
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
           <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
-            Your condition has a story. It&rsquo;s more than a code in a chart.
+            You shouldn&rsquo;t have to repeat your story.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
-            LoMio helps the organizations you trust see your context, not just
-            your lab values &mdash; while you keep control of your data in a
-            digital doppelg&auml;nger vault.
+            LoMio helps systems understand you&mdash;your life, your context,
+            your reality. And you stay in control the whole time.
           </p>
         </div>
       </AnimatedSection>
 
-      {/* Tired of repeating */}
+      {/* What the system understands */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <SectionLabel>You&rsquo;re tired of repeating yourself.</SectionLabel>
+          <SectionLabel>What the system finally sees.</SectionLabel>
           <div className="space-y-4 mt-6 max-w-3xl">
             {[
-              "Telling your story over and over to every new provider.",
-              "Seeing decisions made about you without understanding why.",
-              "Getting advice that ignores your life, your culture, your constraints.",
+              "Your life.",
+              "Your context.",
+              "Your reality.",
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="text-purple-soft mt-0.5">&mdash;</span>
-                <p className="text-purple-mid leading-relaxed">{b}</p>
+                <p className="text-purple-mid leading-relaxed font-medium">{b}</p>
               </div>
             ))}
           </div>
-        </div>
-      </AnimatedSection>
-
-      {/* System listens */}
-      <AnimatedSection className="bg-cream py-20 lg:py-28">
-        <div className="max-w-6xl mx-auto px-6">
-          <SectionLabel>What it means when the system finally listens.</SectionLabel>
-          <p className="text-lg text-purple-mid leading-relaxed max-w-3xl mt-4">
-            LoMio is infrastructure. You won&rsquo;t log into &ldquo;LoMio&rdquo;
-            most days. You&rsquo;ll feel it when your care teams, your insurance,
-            or your wellness programs start acting like they know the real you
-            &mdash; with recommendations that match your reality, and decisions
-            they can explain.
-          </p>
-          <p className="text-sm text-purple-soft italic mt-4 max-w-3xl">
-            You decide where your digital doppelg&auml;nger vault goes. You can
-            see and retract your consent. Human beings stay in the loop.
+          <p className="text-lg text-purple-mid leading-relaxed max-w-3xl mt-6">
+            LoMio helps the organizations you trust see your full context&mdash;
+            not just your lab values&mdash;while your data stays in your own
+            secure space.
           </p>
         </div>
       </AnimatedSection>
 
-      {/* Data not product */}
+      {/* You stay in control */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <SectionLabel>Your data is not the product.</SectionLabel>
+          <SectionLabel>You stay in control the whole time.</SectionLabel>
           <div className="space-y-4 mt-6 max-w-3xl">
             {[
               "Signals are stored in secure personal vaults, not one giant warehouse.",
               "Partners need a purpose and your consent to access intelligence.",
-              "You can see \u2014 in plain language \u2014 what decisions are being made and why.",
+              "You can see\u2014in plain language\u2014what decisions are being made and why.",
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
                 <svg
@@ -96,9 +82,8 @@ export default function ConditionPage() {
       <AnimatedSection className="bg-purple-ghost rounded-2xl py-12 mx-6 lg:mx-auto max-w-6xl mb-20">
         <div className="px-6 text-center">
           <p className="font-display text-xl font-bold text-purple-deep max-w-2xl mx-auto">
-            Ask your providers, your health plan, and your wellness programs how
-            they&rsquo;re using LoMio &mdash; and whether they can show you their
-            work.
+            Your data becomes something you control&mdash;not something that
+            controls you.
           </p>
         </div>
       </AnimatedSection>

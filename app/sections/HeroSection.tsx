@@ -13,13 +13,12 @@ export default function HeroSection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
           <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight">
-            Community-owned data. Real-world health decisions.
+            Your data. Your say. Every decision explained.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
-            LoMio is the first end-to-end agentic AI platform that turns
-            consented health and behavioral signals into explainable decision
-            intelligence &mdash; for pharma, payers, providers, gyms, sports
-            properties, and wellness brands.
+            LoMio helps organizations make smarter health decisions&mdash;while
+            you stay in control of your data. No black boxes. No guessing. Just
+            decisions you can see and trust.
           </p>
           <div className="flex flex-wrap gap-3 mt-8">
             <motion.a
@@ -40,8 +39,8 @@ export default function HeroSection() {
             </motion.a>
           </div>
           <p className="text-xs text-purple-soft mt-6">
-            Privacy-first by design &middot; Human-in-the-loop &middot; Built
-            for regulated health and wellness
+            Privacy-first &middot; Human-reviewed &middot; Built for real
+            people, not just systems
           </p>
         </motion.div>
 

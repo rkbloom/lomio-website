@@ -3,9 +3,9 @@ import AnimatedSection from "@/components/AnimatedSection";
 import SectionLabel from "@/components/SectionLabel";
 
 export const metadata: Metadata = {
-  title: "Community Health Advocates | LoMio",
+  title: "Community | LoMio",
   description:
-    "LoMio helps advocates turn stories, signals, and lived experience into decision intelligence that doesn\u2019t get taken away or watered down.",
+    "Your community deserves more than being studied. LoMio helps communities keep ownership of their data and participate in decisions.",
 };
 
 export default function CommunityPage() {
@@ -15,33 +15,33 @@ export default function CommunityPage() {
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
           <h1 className="font-display text-5xl lg:text-6xl font-bold text-purple-deep leading-tight tracking-tight max-w-3xl">
-            Because your community deserves more than being &ldquo;studied.&rdquo;
+            Your community deserves more than being studied.
           </h1>
           <p className="text-lg text-purple-mid leading-relaxed max-w-2xl mt-6">
-            LoMio helps advocates turn stories, signals, and lived experience
-            into decision intelligence that doesn&rsquo;t get taken away or
-            watered down.
+            LoMio helps communities keep ownership of their data, turn lived
+            experience into real impact, and participate in decisions&mdash;not
+            just observe them.
           </p>
           <div className="mt-8">
             <a
               href="#demo"
               className="bg-purple-deep text-white rounded-full px-6 py-3 text-sm font-semibold hover:bg-purple-dark transition-all duration-200 inline-block"
             >
-              Talk to us about citizen scientist partnerships
+              Talk to us about community partnerships
             </a>
           </div>
         </div>
       </AnimatedSection>
 
-      {/* Bridge */}
+      {/* The shared truth */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <SectionLabel>You&rsquo;ve been the bridge. Without the tools.</SectionLabel>
+          <SectionLabel>There&rsquo;s a shared truth.</SectionLabel>
           <div className="space-y-4 mt-6 max-w-3xl">
             {[
-              "You translate between communities and institutions every day.",
-              "You see patterns long before they show up in a chart.",
-              "You watch data get collected, but not shared back.",
+              "Data has been taken.",
+              "Stories have been used.",
+              "Benefits didn\u2019t come back.",
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="text-purple-soft mt-0.5">&mdash;</span>
@@ -49,22 +49,21 @@ export default function CommunityPage() {
               </div>
             ))}
           </div>
+          <p className="text-lg text-purple-deep font-semibold mt-8 max-w-3xl">
+            This time, it&rsquo;s different. You&rsquo;re in control.
+          </p>
         </div>
       </AnimatedSection>
 
-      {/* Lab keys */}
+      {/* What LoMio helps communities do */}
       <AnimatedSection className="bg-cream py-20 lg:py-28">
         <div className="max-w-6xl mx-auto px-6">
-          <SectionLabel>Giving your community the lab keys.</SectionLabel>
-          <p className="text-lg text-purple-mid leading-relaxed max-w-3xl mt-4 mb-6">
-            LoMio puts the tools for evidence generation in the hands of the
-            people who understand the problem best.
-          </p>
-          <div className="space-y-3 max-w-3xl">
+          <SectionLabel>What LoMio helps communities do.</SectionLabel>
+          <div className="space-y-3 mt-6 max-w-3xl">
             {[
-              "Evidence you can bring into rooms that ignored your stories.",
-              "Consent-first collaboration with brands and health systems.",
-              "Decision traces that show who decided what, and why.",
+              "Keep ownership of their data.",
+              "Turn lived experience into real impact.",
+              "Participate in decisions\u2014not just observe them.",
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
                 <span className="text-green-500 mt-0.5">{"\u2713"}</span>
