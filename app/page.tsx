@@ -12,8 +12,8 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <SocialProofStrip />
       <ProblemFraming />
+      <SocialProofStrip />
       <HowItWorks />
       <SolutionsByAudience />
       <KeyOutcomes />

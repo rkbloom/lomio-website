@@ -2,14 +2,12 @@
 
 import { motion } from "framer-motion";
 import AnimatedSection from "@/components/AnimatedSection";
-import SectionLabel from "@/components/SectionLabel";
 
 export default function FinalCta() {
   return (
     <AnimatedSection className="bg-purple-dark text-white py-24">
       <div className="max-w-6xl mx-auto px-6 text-center" id="demo">
-        <SectionLabel light>Ready to see it in your world?</SectionLabel>
-        <h2 className="font-display text-3xl lg:text-4xl font-bold text-white mt-4 max-w-3xl mx-auto">
+        <h2 className="font-display text-3xl lg:text-4xl font-bold text-white max-w-2xl mx-auto">
           Ready to see how it works in your world?
         </h2>
         <div className="mt-8">
