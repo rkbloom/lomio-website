@@ -15,9 +15,9 @@ export default function HomePage() {
       <ProblemFraming />
       <SocialProofStrip />
       <HowItWorks />
+      <CommunityEthics />
       <SolutionsByAudience />
       <KeyOutcomes />
-      <CommunityEthics />
       <FaqTeaser />
       <FinalCta />
     </>
